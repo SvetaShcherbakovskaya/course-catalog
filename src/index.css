@@ -1,0 +1,28 @@
+:root {
+  font-family: Arial, sans-serif;
+  color: #243247;
+  background-color: #f3f5f9;
+  line-height: 1.6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
